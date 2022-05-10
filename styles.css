@@ -41,14 +41,38 @@ img {
 
 div.contact{
     background-color: lightgrey;
-    border: 1.5px solid black;
+    border: 2.5px solid black;
+    border-top: 0;
     text-align: left;
     text-indent: 18px;
 }
 
 i.fa-solid {
     color: skyblue;
+    margin: 1px;
 }
-h3 {
-    display: inline;
+
+section.content{
+    border: 2.5px solid black;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+h3{
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+ul.leftList{
+    display: inline-block;
+    margin: 0;
+}
+
+ul.rightList{
+    float: right;
+    position: relative;
+    right: 25%;
+    margin: 0;
 }
