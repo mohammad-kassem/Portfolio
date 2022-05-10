@@ -1,0 +1,43 @@
+body{
+    height: 100%;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+header {
+    background-color: skyblue;
+    border-bottom: 2.5px solid black;
+
+}
+
+div.name{
+    font-size: 2em;
+    font-weight: bold;
+    text-indent: 5px;
+    
+}
+
+div.role{
+    font-size: 1.17em;
+    font-weight: bold;
+    text-indent: 5px;
+}
+
+p.desc{
+    margin-left: 175px;
+}
+
+img {
+    float:left;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+i.fa-solid {
+    color: skyblue;
+}
+h3 {
+    display: inline;
+}
