@@ -76,3 +76,15 @@ ul.rightList{
     right: 25%;
     margin: 0;
 }
+
+table, td, th{
+    margin: 0;
+    margin-left: 25px;
+    border: 1.5px solid black;
+    text-align: left;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    }
